@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,700");
+
+nav .navbar {
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+}
+
+/* .navbar-brand img {
+  height: 70px;
+  width: 125px;
+  border-radius: 50%;
+} */
+nav .menu-navbar-nav {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  margin-right: -15%;
+}
+
+nav .nav-item {
+  margin: 0px 10px;
+}
+
+nav .nav-item .nav-link {
+  font-size: 16px;
+  color: rgb(61, 59, 59);
+  line-height: 1;
+}
+
+.header-scrolled {
+  position: fixed;
+  margin-top: 0%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 6px 0 rgba(12, 0, 46, 0.05);
+  -webkit-box-shadow: 0 4px 6px 0 rgba(12, 0, 46, 0.05);
+  -moz-box-shadow: 0 4px 6px 0 rgba(12, 0, 46, 0.05);
+  height: 70px;
+}
+
+.nav-link.active {
+  color: var(--theme) !important;
+}
+
+.nav-link:hover {
+  color: var(--theme) !important;
+}
+
+.heading {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 60px;
+  margin-top: 8%;
+  margin-bottom: 2%;
+  /* margin-left: 12%; */
+}
+
+.content p {
+  line-height: 36px;
+  margin-bottom: 4%;
+  margin-top: 25px;
+  font-size: 18px;
+  font-family: "Proxima Nova", "Proxima Nova Fallback", sans-serif;
+}
+
+.content {
+  /* margin: 9%; */
+  margin-left: 12%;
+  margin-right: 10%;
+  display: block;
+}
+
+footer li a {
+  color: rgb(141, 139, 151);
+  margin: 2% 0%;
+  display: inline-block;
+  color: #838383;
+  text-decoration: none;
+}
+
+footer li a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 1px;
+  background: rgb(108, 99, 255);
+  transition: width 0.4s;
+}
+
+footer li a:hover::after {
+  width: 100%;
+}
+
+footer #button-addon1 {
+  color: var(--theme);
+}
+
+footer li {
+  padding: 3% 0%;
+}
+
+footer i {
+  color: var(--theme);
+}
+
+footer .form-control::placeholder {
+  font-size: 0.95rem;
+  color: #aaa;
+  font-style: italic;
+}
+
+footer .form-control.shadow-0:focus {
+  box-shadow: none;
+}
+
+footer {
+  background-color: #f2f7fa !important;
+}
+
+footer .icon:hover span,
+footer .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+footer .facebook:hover .tooltip,
+footer .facebook:hover .tooltip::before {
+  background-color: #3b5999;
+  color: #ffffff;
+}
+
+footer .twitter:hover .tooltip,
+footer .twitter:hover .tooltip::before {
+  background-color: #46c1f6;
+  color: #ffffff;
+}
+
+footer .instagram:hover .tooltip,
+footer .instagram:hover .tooltip::before {
+  background-color: #965cba;
+  color: #ffffff;
+}
+
+footer .github:hover .tooltip,
+footer .github:hover .tooltip::before {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+footer .youtube:hover .tooltip,
+footer .youtube:hover .tooltip::before {
+  background-color: #de463b;
+  color: #ffffff;
+}
+
+.social_icon {
+  display: inline-flex;
+}
+
+footer .text-uppercase.font-weight-bold.mb-4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+footer .icon {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+footer .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+footer .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+footer .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}

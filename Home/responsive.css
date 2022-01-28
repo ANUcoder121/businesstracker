@@ -1,0 +1,15 @@
+/* MINI PHONES */
+@media (max-width: 425px) {
+}
+/* STANDARD PHONES/TABLETS */
+@media (max-width: 768px) {
+}
+/* LAPTOPS */
+@media (max-width: 1024px) {
+  .about_number {
+    margin-left: 43%;
+  }
+}
+/* PCs */
+@media (max-width: 1200px) {
+}
