@@ -251,6 +251,7 @@ nav .nav-item .nav-link {
   background: #fff6d6;
   padding: 40px;
   border-radius: 15px;
+  height: 338px !important;
 }
 .features_wrapper .ft-1::before {
   /* content: url(../Images/consultancy.png); */
@@ -264,6 +265,7 @@ nav .nav-item .nav-link {
   background: #ebdcf9;
   padding: 40px;
   border-radius: 15px;
+  height: 338px !important;
 }
 .features_wrapper .ft-2::before {
   /* content: url(../Images/solutions.png); */
@@ -318,6 +320,123 @@ nav .nav-item .nav-link {
   border-radius: 15px;
 }
 .features_wrapper .ft-6::before {
+  /* content: url(../Images/flexible.png); */
+  position: absolute;
+  display: block;
+  margin-top: 70px;
+  margin-top: -60px;
+  margin-left: -14px;
+}
+.features_wrapper .ft-7 {
+  background: #ebdcf9;
+  padding: 40px;
+  border-radius: 15px;
+}
+.features_wrapper .ft-7::before {
+  /* content: url(../Images/flexible.png); */
+  position: absolute;
+  display: block;
+  margin-top: 70px;
+  margin-top: -60px;
+  margin-left: -14px;
+}
+.features_wrapper .ft-8 {
+  background: #ddf5fc;
+  padding: 40px;
+  border-radius: 15px;
+}
+.features_wrapper .ft-8::before {
+  /* content: url(../Images/flexible.png); */
+  position: absolute;
+  display: block;
+  margin-top: 70px;
+  margin-top: -60px;
+  margin-left: -14px;
+}
+.features_wrapper .ft-9 {
+  background: #d3e4cd;
+  padding: 40px;
+  border-radius: 15px;
+}
+.features_wrapper .ft-9::before {
+  /* content: url(../Images/flexible.png); */
+  position: absolute;
+  display: block;
+  margin-top: 70px;
+  margin-top: -60px;
+  margin-left: -14px;
+}
+.features_wrapper .ft-10 {
+  background: #fbf3e4;
+  padding: 40px;
+  border-radius: 15px;
+}
+.features_wrapper .ft-10::before {
+  /* content: url(../Images/flexible.png); */
+  position: absolute;
+  display: block;
+  margin-top: 70px;
+  margin-top: -60px;
+  margin-left: -14px;
+}
+.features_wrapper .ft-11 {
+  background: #dcf6e8;
+  padding: 40px;
+  border-radius: 15px;
+}
+.features_wrapper .ft-11::before {
+  /* content: url(../Images/flexible.png); */
+  position: absolute;
+  display: block;
+  margin-top: 70px;
+  margin-top: -60px;
+  margin-left: -14px;
+}
+.features_wrapper .ft-12 {
+  background: #f8e4e1;
+  padding: 40px;
+  border-radius: 15px;
+}
+.features_wrapper .ft-12::before {
+  /* content: url(../Images/flexible.png); */
+  position: absolute;
+  display: block;
+  margin-top: 70px;
+  margin-top: -60px;
+  margin-left: -14px;
+}
+.features_wrapper .ft-13 {
+  background: #bcffb9;
+  padding: 40px;
+  border-radius: 15px;
+}
+.features_wrapper .ft-13::before {
+  /* content: url(../Images/flexible.png); */
+  position: absolute;
+  display: block;
+  margin-top: 70px;
+  margin-top: -60px;
+  margin-left: -14px;
+}
+.features_wrapper .ft-14 {
+  background: #ebdcf9;
+  padding: 40px;
+  border-radius: 15px;
+}
+.features_wrapper .ft-14::before {
+  /* content: url(../Images/flexible.png); */
+  position: absolute;
+  display: block;
+  margin-top: 70px;
+  margin-top: -60px;
+  margin-left: -14px;
+}
+.features_wrapper .ft-15 {
+  background: #fbffd4;
+  padding: 40px;
+  border-radius: 15px;
+}
+.features_wrapper .ft-15::before {
   /* content: url(../Images/flexible.png); */
   position: absolute;
   display: block;
@@ -467,198 +586,22 @@ nav .nav-item .nav-link {
 
 /* -------------------------------------contact-START------------------------------------- */
 
-.background {
+#contact .form {
+  margin: 6%;
+  margin-top: 4%;
+}
+
+#contact #h1 {
   display: flex;
-  min-height: 100vh;
+  align-content: center;
+  margin: 5%;
+  margin-left: 39%;
+  margin-bottom: 0% !important;
 }
-
-.container {
-  flex: 0 1 700px;
-  margin: auto;
-  padding: 10px;
-}
-
-.screen {
-  position: relative;
-  background: #3e3e3e;
-  border-radius: 15px;
-}
-
-.screen:after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 20px;
-  right: 20px;
-  bottom: 0;
-  border-radius: 15px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
-  z-index: -1;
-}
-
-.screen-header {
-  display: flex;
-  align-items: center;
-  padding: 10px 20px;
-  background: #4d4d4f;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-}
-
-.screen-header-left {
-  margin-right: auto;
-}
-
-.screen-header-button {
-  display: inline-block;
-  width: 8px;
-  height: 8px;
-  margin-right: 3px;
-  border-radius: 8px;
-  background: white;
-}
-
-.screen-header-button.close {
-  background: #ed1c6f;
-}
-
-.screen-header-button.maximize {
-  background: #e8e925;
-}
-
-.screen-header-button.minimize {
-  background: #74c54f;
-}
-
-.screen-header-right {
-  display: flex;
-}
-
-.screen-header-ellipsis {
-  width: 3px;
-  height: 3px;
-  margin-left: 2px;
-  border-radius: 8px;
-  background: #999;
-}
-
-.screen-body {
-  display: flex;
-}
-
-.screen-body-item {
-  flex: 1;
-  padding: 50px;
-}
-
-.screen-body-item.left {
-  display: flex;
-  flex-direction: column;
-}
-
-.app-title {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  color: var(--theme);
-  font-size: 26px;
-}
-
-.app-title:after {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 0;
-  bottom: -10px;
-  width: 25px;
-  height: 4px;
-  background: var(--theme);
-}
-
-.app-contact {
-  margin-top: auto;
-  font-size: 8px;
-  color: #888;
-}
-
-.app-form-group {
-  margin-bottom: 15px;
-}
-
-.app-form-group.message {
-  margin-top: 40px;
-}
-
-.app-form-group.buttons {
-  margin-bottom: 0;
-  text-align: right;
-}
-
-.app-form-control {
-  width: 100%;
-  padding: 10px 0;
-  background: none;
-  border: none;
-  border-bottom: 1px solid #666;
-  color: #ddd;
-  font-size: 14px;
-  text-transform: uppercase;
-  outline: none;
-  transition: border-color 0.2s;
-}
-
-.app-form-control::placeholder {
-  color: #666;
-}
-
-.app-form-control:focus {
-  border-bottom-color: #ddd;
-}
-
-.app-form-button {
-  background: none;
-  border: none;
-  color: var(--theme);
-  font-size: 14px;
-  cursor: pointer;
-  outline: none;
-}
-
-.app-form-button:hover {
-  color: var(--theme);
-}
-
-@media screen and (max-width: 520px) {
-  .screen-body {
-    flex-direction: column;
-  }
-
-  .screen-body-item.left {
-    margin-bottom: 30px;
-  }
-
-  .app-title {
-    flex-direction: row;
-  }
-
-  .app-title span {
-    margin-right: 12px;
-  }
-
-  .app-title:after {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .screen-body {
-    padding: 40px;
-  }
-
-  .screen-body-item {
-    padding: 0;
-  }
+#contact button {
+  border-radius: 10px;
+  padding: 10px 40px;
+  font-size: 20px;
 }
 
 /* -------------------------------------contact-END------------------------------------- */
