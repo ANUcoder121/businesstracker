@@ -89,15 +89,17 @@ nav .nav-item .nav-link {
   justify-content: center;
   padding-bottom: 0px !important;
 }
-
-.bckg {
+#LANDING_PAGE .bckg {
   position: relative;
   /* z-index: 55; */
+}
+.home_wrapper bold {
+  color: var(--theme);
 }
 .bckg::before {
   z-index: -1;
   content: "";
-  background-image: url("../Image/Asset\ 1-100.jpg");
+  background-image: url("Image/Asset\ 1-100.jpg");
   background-size: cover;
   position: absolute;
   top: 0px;
@@ -132,29 +134,13 @@ nav .nav-item .nav-link {
 }
 /*------------------------------------- LANDING-END------------------------------------- */
 
-/*------------------------------------- COUNTER-START------------------------------------- */
-/* .counter {
-  padding: 30px 0;
-}
-.counter h2 {
-  color: #3fc5a4;
-  font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  font-size: 50px;
-  line-height: 1.5;
-  margin-bottom: 0;
-}
-.counter p {
-  font-size: 17px;
-  font-weight: 600;
-  line-height: 1.5;
-  color: #798089;
-} */
-/* -------------------------------------COUNTER-END -------------------------------------*/
-
 /* -------------------------------------ABOUT-START -------------------------------------*/
 .about_wrapper {
   padding: 100px 0px 0px;
+}
+.about_wrapper img {
+  height: 313px !important;
+  width: auto;
 }
 .about_number {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -188,6 +174,7 @@ nav .nav-item .nav-link {
 }
 .innovate {
   padding: 80px 0;
+  padding-bottom: 0px;
 }
 .about_wrapper .projects {
   padding: 30px 0;
@@ -241,6 +228,10 @@ nav .nav-item .nav-link {
   line-height: 1.5;
   color: #798089;
 }
+
+#features .height {
+  height: 338px !important;
+}
 .features_wrapper .ft-1 {
   background: #fff6d6;
   padding: 40px;
@@ -254,7 +245,7 @@ nav .nav-item .nav-link {
   height: 338px !important;
 }
 .features_wrapper .ft-1::before {
-  /* content: url(../Images/consultancy.png); */
+  /* content: url(Images/consultancy.png); */
   position: absolute;
   display: block;
   margin-top: 70px;
@@ -268,7 +259,7 @@ nav .nav-item .nav-link {
   height: 338px !important;
 }
 .features_wrapper .ft-2::before {
-  /* content: url(../Images/solutions.png); */
+  /* content: url(Images/solutions.png); */
   position: absolute;
   display: block;
   margin-top: 70px;
@@ -281,7 +272,7 @@ nav .nav-item .nav-link {
   border-radius: 15px;
 }
 .features_wrapper .ft-3::before {
-  /* content: url(../Images/simple.png); */
+  /* content: url(Images/simple.png); */
   position: absolute;
   display: block;
   margin-top: 70px;
@@ -294,7 +285,7 @@ nav .nav-item .nav-link {
   border-radius: 15px;
 }
 .features_wrapper .ft-4::before {
-  /* content: url(../Images/deadline.png); */
+  /* content: url(Images/deadline.png); */
   position: absolute;
   display: block;
   margin-top: 70px;
@@ -307,7 +298,7 @@ nav .nav-item .nav-link {
   border-radius: 15px;
 }
 .features_wrapper .ft-5::before {
-  /* content: url(../Images/data.png); */
+  /* content: url(Images/data.png); */
   position: absolute;
   display: block;
   margin-top: 70px;
@@ -320,7 +311,7 @@ nav .nav-item .nav-link {
   border-radius: 15px;
 }
 .features_wrapper .ft-6::before {
-  /* content: url(../Images/flexible.png); */
+  /* content: url(Images/flexible.png); */
   position: absolute;
   display: block;
   margin-top: 70px;
@@ -333,7 +324,7 @@ nav .nav-item .nav-link {
   border-radius: 15px;
 }
 .features_wrapper .ft-7::before {
-  /* content: url(../Images/flexible.png); */
+  /* content: url(Images/flexible.png); */
   position: absolute;
   display: block;
   margin-top: 70px;
@@ -346,7 +337,7 @@ nav .nav-item .nav-link {
   border-radius: 15px;
 }
 .features_wrapper .ft-8::before {
-  /* content: url(../Images/flexible.png); */
+  /* content: url(Images/flexible.png); */
   position: absolute;
   display: block;
   margin-top: 70px;
@@ -359,7 +350,7 @@ nav .nav-item .nav-link {
   border-radius: 15px;
 }
 .features_wrapper .ft-9::before {
-  /* content: url(../Images/flexible.png); */
+  /* content: url(Images/flexible.png); */
   position: absolute;
   display: block;
   margin-top: 70px;
@@ -372,7 +363,7 @@ nav .nav-item .nav-link {
   border-radius: 15px;
 }
 .features_wrapper .ft-10::before {
-  /* content: url(../Images/flexible.png); */
+  /* content: url(Images/flexible.png); */
   position: absolute;
   display: block;
   margin-top: 70px;
@@ -385,7 +376,7 @@ nav .nav-item .nav-link {
   border-radius: 15px;
 }
 .features_wrapper .ft-11::before {
-  /* content: url(../Images/flexible.png); */
+  /* content: url(Images/flexible.png); */
   position: absolute;
   display: block;
   margin-top: 70px;
@@ -398,7 +389,7 @@ nav .nav-item .nav-link {
   border-radius: 15px;
 }
 .features_wrapper .ft-12::before {
-  /* content: url(../Images/flexible.png); */
+  /* content: url(Images/flexible.png); */
   position: absolute;
   display: block;
   margin-top: 70px;
@@ -411,7 +402,7 @@ nav .nav-item .nav-link {
   border-radius: 15px;
 }
 .features_wrapper .ft-13::before {
-  /* content: url(../Images/flexible.png); */
+  /* content: url(Images/flexible.png); */
   position: absolute;
   display: block;
   margin-top: 70px;
@@ -424,7 +415,7 @@ nav .nav-item .nav-link {
   border-radius: 15px;
 }
 .features_wrapper .ft-14::before {
-  /* content: url(../Images/flexible.png); */
+  /* content: url(Images/flexible.png); */
   position: absolute;
   display: block;
   margin-top: 70px;
@@ -437,7 +428,7 @@ nav .nav-item .nav-link {
   border-radius: 15px;
 }
 .features_wrapper .ft-15::before {
-  /* content: url(../Images/flexible.png); */
+  /* content: url(Images/flexible.png); */
   position: absolute;
   display: block;
   margin-top: 70px;
@@ -586,22 +577,87 @@ nav .nav-item .nav-link {
 
 /* -------------------------------------contact-START------------------------------------- */
 
-#contact .form {
-  margin: 6%;
-  margin-top: 4%;
+#contact {
+  padding-top: 3%;
+}
+.contact_bkg {
+  position: relative;
+  /* z-index: 10; */
+}
+.contact_bkg::before {
+  z-index: -1;
+  content: "";
+  background-image: url("Image/contact_bkg_2.png");
+  background-size: cover;
+  position: absolute;
+  top: -22%;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.15;
+  overflow: hidden;
+}
+#contact h1 {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+}
+#mailto:hover,
+#contact a:hover {
+  cursor: pointer;
+  color: var(--theme);
+}
+#contact a {
+  text-decoration: none;
+  color: black;
+}
+#contact .contact_title {
+  text-align: center;
 }
 
-#contact #h1 {
-  display: flex;
-  align-content: center;
-  margin: 5%;
-  margin-left: 39%;
-  margin-bottom: 0% !important;
+#contact .fa-envelope-open-text {
+  color: var(--theme);
+  font-size: 250px;
 }
-#contact button {
-  border-radius: 10px;
-  padding: 10px 40px;
+#contact form .global_button {
+  border-radius: 25px;
+  padding: 8px 40px;
   font-size: 20px;
+  width: 55%;
+}
+#contact form div input {
+  border-radius: 29px;
+  font-size: 17px;
+  padding: 6px;
+
+  padding-left: 5%;
+}
+#contact form div input::placeholder,
+#contact .text_sugg textarea::placeholder {
+  color: #c5c5c5;
+}
+#contact form div input:focus,
+#contact .text_sugg textarea:focus {
+  border: default;
+  box-shadow: 0 0 2px 1px var(--theme);
+  outline: 0 !important;
+}
+#contact form div {
+  width: 55%;
+}
+
+#contact .text_sugg {
+  width: 55%;
+  margin-bottom: 2%;
+}
+#contact .text_sugg textarea {
+  border-radius: 15px;
+  font-size: 17px;
+  padding: 6px;
+  padding-left: 5%;
+  border: 1px solid #c5c5c5;
 }
 
 /* -------------------------------------contact-END------------------------------------- */
@@ -712,7 +768,7 @@ footer .icon {
   transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-footer .tooltip {
+/* footer .tooltip {
   position: absolute;
   top: 0;
   font-size: 14px;
@@ -743,7 +799,7 @@ footer .icon:hover .tooltip {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-}
+} */
 /* -------------------------------------FOOTER-END------------------------------------- */
 
 /* -------------------------------------BODY-END------------------------------------- */
